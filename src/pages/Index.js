@@ -5,12 +5,14 @@ import Divider from "../components/divider/Divider";
 import CTA from "../components/cta/CTA";
 import TemplateFeature from "../components/feature/TemplateFeature";
 import TemplateDemos from "../components/demos/TemplateDemos";
+import HomeTwo from "./HomeTwo";
 
 export default function DemoPage() {
-    return(
-        <>
-            <Header />
-
+  return (
+    <>
+      <Header />
+      <HomeTwo />
+      {/* 
             <DemoHero 
                 title="Build an excellent NFTs website with Funto." 
                 subTitle="It's crafted with the latest trend of design & coded with all modern approaches." 
@@ -29,41 +31,41 @@ export default function DemoPage() {
                     }
                 ]}
                 heroThumbnail="img/illustrator/2.png"
-            />
+            /> */}
 
-            <Divider />
+      <Divider />
 
-            <CTA 
-                backgroundColor="primary" // try 'success', 'warning', 'danger', 'info' etc 
-                text="Beautifully designed & coded, NFT buying & selling React JS template."
-                buttonText="Purchase Now"
-                buttonColor="warning" 
-                buttonURL="https://themeforest.net/item/funto-react-nft-marketplace/36593340" 
-                buttonIcon=""
-            />
+      {/* <CTA
+        backgroundColor="primary" // try 'success', 'warning', 'danger', 'info' etc
+        text="Beautifully designed & coded, NFT buying & selling React JS template."
+        buttonText="Purchase Now"
+        buttonColor="warning"
+        buttonURL="https://themeforest.net/item/funto-react-nft-marketplace/36593340"
+        buttonIcon=""
+      /> */}
 
-            <Divider />
+      {/* <Divider />
 
-            <TemplateFeature />
+      <TemplateFeature />
 
-            <Divider />
+      <Divider />
 
-            <TemplateDemos />
+      <TemplateDemos /> */}
 
-            <Divider />
+      {/* <Divider /> */}
 
-            <CTA 
-                backgroundColor="danger" // try 'success', 'warning', 'danger', 'info' etc 
-                text="Feeling the love with this React template?"
-                buttonText="Purchase Now"
-                buttonColor="dark" 
-                buttonURL="https://themeforest.net/item/funto-react-nft-marketplace/36593340" 
-                buttonIcon=""
-            />
+      {/* <CTA
+        backgroundColor="danger" // try 'success', 'warning', 'danger', 'info' etc
+        text="Feeling the love with this React template?"
+        buttonText="Purchase Now"
+        buttonColor="dark"
+        buttonURL="https://themeforest.net/item/funto-react-nft-marketplace/36593340"
+        buttonIcon=""
+      />
 
-            <Divider />
+      <Divider /> */}
 
-            <Footer />
-        </>
-    )
+      <Footer />
+    </>
+  );
 }

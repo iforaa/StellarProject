@@ -5,27 +5,27 @@ import CollectionContent from "../components/collection/CollectionContent";
 import Divider from "../components/divider/Divider";
 
 export default function Collections() {
-    return(
-        <>
-            <Header />
+  return (
+    <>
+      <Header />
 
-            <Breadcrumb 
-                breadcrumbTitle="Collection" 
-                breadcrumbNav={[
-                    {
-                        navText: "Home",
-                        path: "/"
-                    }
-                ]}
-            />
+      <Breadcrumb
+        breadcrumbTitle="Manga Collections"
+        breadcrumbNav={[
+          {
+            navText: "Home",
+            path: "/",
+          },
+        ]}
+      />
 
-            <Divider />
-            
-            <CollectionContent />
+      <Divider />
 
-            <Divider />
+      <CollectionContent />
 
-            <Footer />
-        </>
-    )
+      <Divider />
+
+      <Footer />
+    </>
+  );
 }
